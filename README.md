@@ -25,7 +25,7 @@
 > **⚠️ Important:** This plugin is compatible **ONLY with macOS** and requires the Spotify desktop application to be
 > installed.
 >
-> Spotyy is a plugin for all JetBrains IDEs (IntelliJ IDEA, Android Studio, PyCharm, WebStorm, etc.) that lets you
+> Spotcat is a plugin for all JetBrains IDEs (IntelliJ IDEA, Android Studio, PyCharm, WebStorm, etc.) that lets you
 > control Spotify directly from your IDE status bar:
 
 - ▶️ Play/pause your music with one click
@@ -37,17 +37,17 @@
 ## 📸 Demo
 - status bar
 <p align="center">
-  <img src="src/main/resources/screenshot/screenshot1.png" alt="Spotyy Screenshot 1" width="600"/>
+  <img src="src/main/resources/screenshot/screenshot1.png" alt="Spotcat Screenshot 1" width="600"/>
 </p>
 
 - settings
 <p align="center">
-  <img src="src/main/resources/screenshot/screenshot2.png" alt="Spotyy Screenshot 2" width="600"/>
+  <img src="src/main/resources/screenshot/screenshot2.png" alt="Spotcat Screenshot 2" width="600"/>
 </p>
 
 - actions
 <p align="center">
-  <img src="src/main/resources/screenshot/screenshot3.png" alt="Spotyy Screenshot 3" width="600"/>
+  <img src="src/main/resources/screenshot/screenshot3.png" alt="Spotcat Screenshot 3" width="600"/>
 </p>
 
 ## 💿 Installation
