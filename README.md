@@ -33,6 +33,7 @@
 - ⏭️ Skip to next track
 - 🔊 Control volume
 - 📋 View currently playing track
+- ⚡️ Use the Action panel to quickly control playback
 
 ## 📸 Demo
 - status bar
