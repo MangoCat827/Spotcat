@@ -9,7 +9,7 @@ import javax.swing.UIManager
 class MyStatusBarWidgetFactory : StatusBarWidgetFactory {
 
     override fun getId(): String {
-        return "com.github.magneto3572.spotyy.MyStatusBarWidget"
+        return "com.mangocat.spotcat.MyStatusBarWidget"
     }
 
     override fun getDisplayName(): String {
