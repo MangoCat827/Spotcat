@@ -106,9 +106,9 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## 📜 License
 
-This project is based on [magneto3572/spotyy](https://github.com/magneto3572/spotyy), originally licensed under the MIT License.
+This project is a modified version of [magneto3572/spotyy](https://github.com/magneto3572/spotyy), originally licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-Modifications, improvements, and republishing done by MangoCat827 in 2025.
+All modifications, improvements, and republishing were made by [MangoCat827](https://github.com/MangoCat827) in 2025, and are also released under the MIT License.
 
 ## 🙏 Acknowledgements
 
