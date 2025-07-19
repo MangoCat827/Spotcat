@@ -39,10 +39,12 @@
 <p align="center">
   <img src="src/main/resources/screenshot/screenshot1.png" alt="Spotyy Screenshot 1" width="600"/>
 </p>
+
 - settings
 <p align="center">
   <img src="src/main/resources/screenshot/screenshot2.png" alt="Spotyy Screenshot 2" width="600"/>
 </p>
+
 - actions
 <p align="center">
   <img src="src/main/resources/screenshot/screenshot3.png" alt="Spotyy Screenshot 3" width="600"/>
