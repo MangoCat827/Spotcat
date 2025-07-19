@@ -1,0 +1,15 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.mangocat.spotcat</id>
+    <name>Spotcat</name>
+    <vendor>MangoCat827</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <resource-bundle>messages.MyBundle</resource-bundle>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <statusBarWidgetFactory implementation="com.mangocat.spotcat.statusbar.MyStatusBarWidgetFactory"/>
+        <postStartupActivity implementation="com.mangocat.spotcat.startup.MyProjectActivity" />
+    </extensions>
+</idea-plugin>

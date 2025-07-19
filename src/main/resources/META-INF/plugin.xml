@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>com.mangocat.spotcat</id>
+    <name>Spotcat</name>
+    <vendor>MangoCat827</vendor>
+
+    <description><![CDATA[
+      Spotify controller for IntelliJ IDEA. Control your music without leaving the IDE.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <resource-bundle>messages.MyBundle</resource-bundle>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <statusBarWidgetFactory id="com.mangocat.spotcat.MyStatusBarWidget"
+                                implementation="com.mangocat.spotcat.statusbar.MyStatusBarWidgetFactory"/>
+        <postStartupActivity implementation="com.mangocat.spotcat.startup.MyProjectActivity" />
+    </extensions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <projectConfigurable
+                instance="com.mangocat.spotcat.setting.SpotcatSettingsConfigurable"
+                displayName="Spotcat Settings"
+        />
+    </extensions>
+
+    <actions>
+        <action id="Spotify.Play" class="com.mangocat.spotcat.action.SpotifyPlayActionDelegate" text="Spotify: Play/Pause" description="Toggle playback in Spotify"/>
+        <action id="Spotify.Next" class="com.mangocat.spotcat.action.SpotifyNextActionDelegate" text="Spotify: Next Track" description="Skip to next track"/>
+        <action id="Spotify.Previous" class="com.mangocat.spotcat.action.SpotifyPreviousActionDelegate" text="Spotify: Previous Track" description="Go to previous track"/>
+    </actions>
+
+</idea-plugin>

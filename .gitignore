@@ -1,0 +1,36 @@
+.gradle
+.idea
+.intellijPlatform
+build
+out
+
+# Kotlin
+.kotlin/
+*.class
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Mac
+.DS_Store
+
+# Gradle
+build/
+.gradle/
+
+# MPP
+.cxx/
+local.properties
