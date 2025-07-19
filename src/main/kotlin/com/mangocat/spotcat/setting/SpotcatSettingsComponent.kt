@@ -9,7 +9,7 @@ import javax.swing.*
 class SpotcatSettingsComponent {
 
     private val mainPanel = JPanel()
-    private val showTitleCheckBox = JCheckBox("display song title")
+    private val showTitleCheckBox = JCheckBox("Always display the title")
     private val iconGapField = JTextField(4)
     private var customLabelField = JTextField(4)
 

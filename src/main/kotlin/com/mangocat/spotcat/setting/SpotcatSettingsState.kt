@@ -14,7 +14,7 @@ class SpotcatSettingsState : PersistentStateComponent<SpotcatSettingsState> {
 
     var showTitle: Boolean = true
     var iconGap: Int = 4
-    var customLabel: String = ""
+    var customLabel: String = "MangoCat"
 
     override fun getState(): SpotcatSettingsState = this
 
