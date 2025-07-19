@@ -94,7 +94,7 @@ through AppleScript (macOS only).
 git clone https://github.com/MangoCat827/Spotcat.git
 
 # Navigate to the project directory
-cd Spotyy
+cd Spotcat
 
 # Build the plugin
 ./gradlew buildPlugin
