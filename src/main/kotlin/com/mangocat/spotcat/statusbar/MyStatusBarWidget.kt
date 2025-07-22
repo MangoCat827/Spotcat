@@ -107,7 +107,7 @@ class MyStatusBarWidget : CustomStatusBarWidget {
     private var nextIcon = IconLoader.findIcon("/icons/right_light.svg", MyStatusBarWidget::class.java)?.let {
         IconUtil.toSize(it, iconSize, iconSize)
     }
-    private var spotcatIcon = IconLoader.findIcon("/icons/spotyy_icon_light.svg", MyStatusBarWidget::class.java)?.let {
+    private var spotcatIcon = IconLoader.findIcon("/icons/cat_mango.svg", MyStatusBarWidget::class.java)?.let {
         IconUtil.toSize(it, iconSize, iconSize)
     }
     private var volumeIcon = IconLoader.findIcon("/icons/volume_light.svg", MyStatusBarWidget::class.java)?.let {
@@ -241,8 +241,8 @@ class MyStatusBarWidget : CustomStatusBarWidget {
 
                 // Update spotty icon too
                 val spotyyIconSuffix = if (isDarkTheme) "_light" else "_dark"
-                val newSpotyyIcon =
-                    IconLoader.getIcon("/icons/spotyy_icon${spotyyIconSuffix}.svg", MyStatusBarWidget::class.java)
+//                val newSpotyyIcon = IconLoader.getIcon("/icons/spotyy_icon${spotyyIconSuffix}.svg", MyStatusBarWidget::class.java)
+                val newSpotyyIcon = IconLoader.getIcon("/icons/cat_mango.svg", MyStatusBarWidget::class.java)
                 if (newSpotyyIcon != null) {
                     spotcatButton.icon = newSpotyyIcon
                     spotcatIcon = newSpotyyIcon
@@ -296,7 +296,7 @@ class MyStatusBarWidget : CustomStatusBarWidget {
 //        }
 
         // Set up track info label
-        trackInfoLabel.border = BorderFactory.createEmptyBorder(0, 0, 0, 0) // Remove extra padding
+        trackInfoLabel.border = BorderFactory.createEmptyBorder(0, 4, 0, 0) // Remove extra padding
         trackInfoLabel.maximumSize = Dimension(Short.MAX_VALUE.toInt(), trackInfoLabel.font.size)
         trackInfoLabel.toolTipText = null
         trackInfoLabel.foreground = if (isDarkTheme) Color.WHITE else Color.BLACK
