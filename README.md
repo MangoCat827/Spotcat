@@ -1,6 +1,10 @@
 # 🥭🐱🎵 Spotcat - Spotify Controls for JetBrains IDEs
 
 <p align="center">
+  <img src="src/main/resources/META-INF/pluginIcon.svg" alt="Spotcat Logo" width="600"/>
+</p>
+
+<p align="center">
   <b>Control Spotify without leaving your IDE</b>
 </p>
 
